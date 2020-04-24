@@ -1,0 +1,76 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "Chat.Client",
+            "projectName": "Chat"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Server",
+            "request": "launch",
+            "mainClass": "Chat.Server",
+            "projectName": "Chat"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MiniMiniApp<sound>",
+            "request": "launch",
+            "mainClass": "sound/Sound.MiniMiniApp",
+            "projectName": "sound"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-beatbox<sound>",
+            "request": "launch",
+            "mainClass": "sound/Sound.beatbox",
+            "projectName": "sound"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-gui<sound>",
+            "request": "launch",
+            "mainClass": "sound/Sound.gui",
+            "projectName": "sound"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-musicplayer<sound>",
+            "request": "launch",
+            "mainClass": "sound/Sound.musicplayer",
+            "projectName": "sound"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-musicplayer2<sound>",
+            "request": "launch",
+            "mainClass": "sound/Sound.musicplayer2",
+            "projectName": "sound"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-musicplayer3<sound>",
+            "request": "launch",
+            "mainClass": "sound/Sound.musicplayer3",
+            "projectName": "sound"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App",
+            "request": "launch",
+            "mainClass": "app.App"
+        }
+    ]
+}
