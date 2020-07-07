@@ -1,3 +1,4 @@
+//LeetCode 278
 public class FirstBadVersion {
     boolean isBadVersion(int version) {
         if (version >= 1702766719) {
