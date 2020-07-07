@@ -21,8 +21,6 @@ public class NBodyApp {
         jPanel = new JPanel();       
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.getContentPane().add(BorderLayout.SOUTH, jPanel);
-        // jFrame.getContentPane().add(BorderLayout.SOUTH, jButton);
-        // jFrame.getContentPane().add(BorderLayout.SOUTH, jButton2);
         MyDrawPanel drawPanel = new MyDrawPanel();
         jFrame.getContentPane().add(BorderLayout.CENTER, drawPanel);
         jFrame.setSize(1000, 1000); 
@@ -43,7 +41,7 @@ public class NBodyApp {
                 for (int i = 0; i < nbodyList.size(); i++) {
                     NBody tempnBody = nbodyList.get(i);                   
                     g.fillOval((int)tempnBody.position.x,(int)tempnBody.position.y,(int)tempnBody.size,(int)tempnBody.size);
-                    Thread.sleep(10);
+                    Thread.sleep(15);
                 }
                 time = time + dt;
                 jFrame.repaint();
