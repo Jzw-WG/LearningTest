@@ -6,6 +6,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DivideWeight",
+            "request": "launch",
+            "mainClass": "DivideWeight"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "App"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NBodyApp",
+            "request": "launch",
+            "mainClass": "NBodyApp"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReserveSentence",
+            "request": "launch",
+            "mainClass": "ReserveSentence"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Client",
             "request": "launch",
             "mainClass": "Chat.Client",
