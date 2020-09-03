@@ -6,6 +6,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - HashSetTest",
+            "request": "launch",
+            "mainClass": "HashSetTest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SeperatedSortedRegion",
+            "request": "launch",
+            "mainClass": "SeperatedSortedRegion"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DivideNumber",
+            "request": "launch",
+            "mainClass": "DivideNumber"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DivideWeight",
             "request": "launch",
             "mainClass": "DivideWeight"
