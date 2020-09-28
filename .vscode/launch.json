@@ -6,6 +6,42 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LongestPalindrome",
+            "request": "launch",
+            "mainClass": "LongestPalindrome"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindMode",
+            "request": "launch",
+            "mainClass": "FindMode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergeTree",
+            "request": "launch",
+            "mainClass": "MergeTree"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExtendsTest",
+            "request": "launch",
+            "mainClass": "ExtendsTest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxSubArray",
+            "request": "launch",
+            "mainClass": "MaxSubArray"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MSteps",
+            "request": "launch",
+            "mainClass": "MSteps"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HashSetTest",
             "request": "launch",
             "mainClass": "HashSetTest"
