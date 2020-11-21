@@ -4,11 +4,14 @@ import java.util.Map;
 public class App {
 
     public static void main(String[] args) {
+        String a= "ababasdasda";
+        String b = a.substring(0, 1);
         System.out.println(shortest("aaaaabbdaaaacccdddddeeffbb",3));
     }
 
   public static String shortest(String input, int k) {
     // Write your solution here
+    StringBuffer s = new StringBuffer(input);
     if (input == null || input.length() == 0 || k <= 0) {
       return new String();
     }
