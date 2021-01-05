@@ -1,0 +1,19 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "RingQueueTest/lib/GroboCodeCoverage-1.1.0-ant.jar",
+        "RingQueueTest/lib/GroboCodeCoverage-1.1.0-core.jar",
+        "RingQueueTest/lib/GroboCodeCoverage-1.1.0-runtime.jar",
+        "RingQueueTest/lib/GroboPMTI-1.0.0alpha3-core.jar",
+        "RingQueueTest/lib/GroboTestingAutodoc-1.0.0alpha2-core.jar",
+        "RingQueueTest/lib/GroboTestingJUnit-1.2.1-core.jar",
+        "RingQueueTest/lib/GroboTestingTP-1.0.0alpha2-core.jar",
+        "RingQueueTest/lib/GroboUICapture-1.0.0alpha2-core.jar",
+        "RingQueueTest/lib/GroboUtilClasses-1.0.0-core.jar",
+        "RingQueueTest/lib/GroboUtilDatastruct-1.0.0alpha3-core.jar",
+        "RingQueueTest/lib/GroboUtilIO-1.0.0alpha2-core.jar",
+        "RingQueueTest/lib/GroboUtilThread-1.0.0alpha2-core.jar",
+        "RingQueueTest/lib/GroboUtilXML-1.1.0-core.jar",
+        "RingQueueTest/lib/junit-4.13.1.jar"
+    ]
+}
