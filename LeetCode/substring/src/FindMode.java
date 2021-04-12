@@ -2,8 +2,6 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
-import sun.security.util.ArrayUtil;
-
 /** LeetCode 501 */
 class FindMode {
     Integer max = 0;

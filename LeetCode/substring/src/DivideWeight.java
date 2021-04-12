@@ -6,7 +6,7 @@ import java.util.Collections;
 public class DivideWeight {
     /**另一道题 */
     public int[] devideWeight(int n, int[] weights, int[] order) {
-        int[] result = new in[n];
+        int[] result = new int[n];
         for (int i = 0; i < result.length; i++) {
             
         }

@@ -6,6 +6,108 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LongestMount",
+            "request": "launch",
+            "mainClass": "LongestMount"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchMount",
+            "request": "launch",
+            "mainClass": "SearchMount"
+        },
+        {
+            "type": "java",
+            "name": "Launch Box",
+            "request": "launch",
+            "mainClass": "Box"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntegerLRU",
+            "request": "launch",
+            "mainClass": "IntegerLRU"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculator2",
+            "request": "launch",
+            "mainClass": "Calculator2"
+        },
+        {
+            "type": "java",
+            "name": "Launch HorseTrans",
+            "request": "launch",
+            "mainClass": "HorseTrans"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WordPattern",
+            "request": "launch",
+            "mainClass": "WordPattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DotaSenate",
+            "request": "launch",
+            "mainClass": "DotaSenate"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseMatrix",
+            "request": "launch",
+            "mainClass": "ReverseMatrix"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CanJumpToEnd",
+            "request": "launch",
+            "mainClass": "CanJumpToEnd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ListMergeSort",
+            "request": "launch",
+            "mainClass": "ListMergeSort"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReconstructQueue",
+            "request": "launch",
+            "mainClass": "ReconstructQueue"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SortComparatorTest",
+            "request": "launch",
+            "mainClass": "SortComparatorTest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CalPeakOnlineUserNums",
+            "request": "launch",
+            "mainClass": "CalPeakOnlineUserNums"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CombinationsOfSum",
+            "request": "launch",
+            "mainClass": "CombinationsOfSum"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RingRotateSteps",
+            "request": "launch",
+            "mainClass": "RingRotateSteps"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PostorderTraversal",
+            "request": "launch",
+            "mainClass": "PostorderTraversal"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LongestPalindrome",
             "request": "launch",
             "mainClass": "LongestPalindrome"
