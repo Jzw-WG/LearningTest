@@ -6,6 +6,19 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArrayMergeSort",
+            "request": "launch",
+            "mainClass": "ArrayMergeSort",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayQuickSort",
+            "request": "launch",
+            "mainClass": "ArrayQuickSort"
+        },
+        {
+            "type": "java",
             "name": "Launch LongestMount",
             "request": "launch",
             "mainClass": "LongestMount"
