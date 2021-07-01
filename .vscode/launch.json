@@ -6,6 +6,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ErrorRecord",
+            "request": "launch",
+            "mainClass": "ErrorRecord"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScoreQuery",
+            "request": "launch",
+            "mainClass": "ScoreQuery"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudyRelax",
+            "request": "launch",
+            "mainClass": "StudyRelax"
+        },
+        {
+            "type": "java",
             "name": "Launch ArrayMergeSort",
             "request": "launch",
             "mainClass": "ArrayMergeSort",
