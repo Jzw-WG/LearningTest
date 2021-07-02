@@ -6,6 +6,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Canteen",
+            "request": "launch",
+            "mainClass": "Canteen"
+        },
+        {
+            "type": "java",
             "name": "Launch ErrorRecord",
             "request": "launch",
             "mainClass": "ErrorRecord"
