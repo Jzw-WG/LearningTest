@@ -6,6 +6,85 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Card",
+            "request": "launch",
+            "mainClass": "Card.Card",
+            "projectName": "card"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeautifulWord",
+            "request": "launch",
+            "mainClass": "BeautifulWord"
+        },
+        {
+            "type": "java",
+            "name": "Launch WeChatRedPacketTest",
+            "request": "launch",
+            "mainClass": "WeChatRedPacketTest"
+        },
+        {
+            "type": "java",
+            "name": "Launch oO",
+            "request": "launch",
+            "mainClass": "oO"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoYu",
+            "request": "launch",
+            "mainClass": "MoYu"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedWord",
+            "request": "launch",
+            "mainClass": "LinkedWord"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tengxun3",
+            "request": "launch",
+            "mainClass": "Tengxun3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tengxun2",
+            "request": "launch",
+            "mainClass": "Tengxun2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tengxun",
+            "request": "launch",
+            "mainClass": "Tengxun"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinSpaceRemain",
+            "request": "launch",
+            "mainClass": "MinSpaceRemain"
+        },
+        {
+            "type": "java",
+            "name": "Launch ABCBank",
+            "request": "launch",
+            "mainClass": "ABCBank"
+        },
+        {
+            "type": "java",
+            "name": "Launch Xiechen",
+            "request": "launch",
+            "mainClass": "Xiechen"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution"
+        },
+        {
+            "type": "java",
             "name": "Launch Canteen",
             "request": "launch",
             "mainClass": "Canteen"

@@ -9,7 +9,7 @@ public class ACMIO {
         String[] t = br.readLine().trim().split(" ");
         int[][] input = new int[Integer.parseInt(t[0])][4];
         int row = 0;
-        while ((content = br.readLine()) != null && (row < Integer.parseInt(t[0]))) {
+        while ((row < Integer.parseInt(t[0])) && (content = br.readLine()) != null) {
             String[] strs = content.trim().split(" ");
             input[row][0] = Integer.parseInt(strs[0]);
             input[row][1] = Integer.parseInt(strs[1]);

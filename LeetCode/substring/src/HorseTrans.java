@@ -6,42 +6,43 @@ import java.util.List;
 import java.awt.Point;
 
 public class HorseTrans {
-    int m = 8;
-    int n = 8;
+    int m = 7;
+    int n = 7;
     boolean isFound = false;
     public LinkedList<Point> path = new LinkedList<>();
 
     public void backTrace(int x, int y, boolean[][] visited, LinkedList<Point> path) {
-        long a = System.currentTimeMillis();
+        // long a = System.currentTimeMillis();
         // boolean isvisited = false;
-        if (isFound) {
-            return;
-       }
        
         visited[x][y] = true;
-        Point p = new Point(x, y);
-        if (path.size() == m*n) {
+               if (path.size() == m*n) {
             isFound = true;
             for (Point point : path) {
                 System.out.println(point);
             }
+            return;
         }
         
-        
+        Point p = new Point(x, y);
         LinkedList<Point> next = getNextList(p);
-        // sort(next);
+        sort(next);
         for (int i = 0; i < next.size(); i++) {
             if (!visited[next.get(i).x][next.get(i).y]) {
                 path.add(next.get(i));
+                // visited[next.get(i).x][next.get(i).y] = true;
+
                 backTrace(next.get(i).x, next.get(i).y, visited, path);
+
                 path.remove(path.size() - 1);
+                // visited[next.get(i).x][next.get(i).y] = false;
                     
             }                
         }
         if (!isFound) {
             visited[x][y] = false;
         }
-        System.out.println(System.currentTimeMillis() - a + "ms");
+        // System.out.println(System.currentTimeMillis() - a + "ms");
     }
 
     // public ArrayList<Point> getNextList(Point curPoint) {
